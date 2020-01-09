@@ -7,7 +7,7 @@ header{
 	width: 100%;
 	height: 300px;
 	margin: 0 0 20px 0;
-	background-image: url("https://s3.amazonaws.com/gbstool/emails/2028/design1_image1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200107T173520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=28800&X-Amz-Credential=AKIAJBIZLMJQ2O6DKIAA%2F20200107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=617e8c71aa5ac62e719a4eeed29bfabf2908ddc0f6439d9cffcdbfb5a9249793");
+	background-image: url("../imagenes/design1_image1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
@@ -20,11 +20,7 @@ header{
 	
 
 }
-.espaciado{
-	margin-bottom: 20px;
-	margin-top: 20px;
-	margin-left: 20px;
-}
+
 #text {
 	position: absolute;
 	bottom: -5%;
