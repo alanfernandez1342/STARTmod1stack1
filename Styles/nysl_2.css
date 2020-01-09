@@ -59,7 +59,7 @@ nav {
 	text-decoration: none;
 	color: white;
 	padding: 7px 7px;
-	margin: 0 10px 0 10px;
+	margin: 0 10px;
 	-webkit-box-shadow: 13px 12px 4px 5px #000000; 
 	box-shadow: 10px 6px 7px 3px #000000;
 
@@ -89,4 +89,7 @@ main p{
 }
 .h3about{
 	font-size: 26px;
+}
+body {
+	font-family:cursive;
 }
