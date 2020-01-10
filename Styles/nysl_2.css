@@ -55,7 +55,7 @@ nav {
 	right: 10%;
 	
 }
-#links a {
+nav a {
 	text-decoration: none;
 	color: white;
 	padding: 7px 7px;
@@ -91,5 +91,5 @@ main p{
 	font-size: 26px;
 }
 body {
-	font-family:cursive;
+	font-family: cursive;
 }

@@ -50,7 +50,7 @@ nav {
 	margin: 0;
 	width: 20%;
 }
-#links a {
+nav a {
 	padding-top: 5%;
 	font-size: 20px;
 	margin-left: 8%;
@@ -68,3 +68,4 @@ main p{
 	margin: 5px 0 10px 0;
 	font-size: 15px;
 }
+
