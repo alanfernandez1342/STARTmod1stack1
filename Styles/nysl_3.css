@@ -48,17 +48,19 @@ nav{
 	flex-direction: row;
 	position: absolute;
 	width: 100%;
-	top: 43%;
+	top: 40%;
 }
 nav	a{
-	font-size:30px;
+	font-size:25px;
 	text-decoration: none;
 }
 #seleccionado{
 	color: var(--verdeclaro);
+	font-size: 40px;
 }
 .noseleccionado{
 	color: white;
+	margin-top: 10px;
 }
 #divsub{
 	position: absolute;
