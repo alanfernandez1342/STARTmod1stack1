@@ -89,4 +89,10 @@ main h3{
 	flex-direction: row;
 
 }
+#encabezadorules{
+	text-align: center;
+}
 
+#subtitulo{
+	text-align: center;
+}
