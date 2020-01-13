@@ -95,4 +95,27 @@ main h3{
 
 #subtitulo{
 	text-align: center;
+	font-weight: bold;
+}
+li{
+	margin-left: 70px;
+}
+ul{
+
+	list-style-type: square
+	
+}
+.list{
+	color:#8bfc5f;
+
+}
+.spanitems
+{
+	font-weight: bold;
+}
+.interno{
+	list-style-type: lower-alpha;
+}
+#circulovacio{
+	list-style-type: circle;
 }
