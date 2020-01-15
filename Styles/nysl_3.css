@@ -97,7 +97,6 @@ nav	a{
 	position: absolute;
 	top:50vh;
 	width: 100vw;
-	height: 40vh;
 	color: black;
 	padding-top: 2vh;
 	text-align: center;
@@ -161,7 +160,7 @@ ul{
 
 
 .tableconfig tr td{
-	background-color: #00000070;
+	background-color: #00000077;
 }
 
 .tableconfig{ 
@@ -172,7 +171,6 @@ ul{
 	margin-top: 3vh;
 	border: 0.6vh var(--verdeclaro) solid;
 	background-image: url("../imagenes/pasto.gif");
-
 
 }
 .fecha{
@@ -243,5 +241,28 @@ p {
 .contactodetablas{
 	display: flex;
 	justify-content: space-between;
-
+}
+form{
+	padding: 2vh;
+	margin:auto;
+	width: 80vw;
+}
+form label, input{
+	margin:2vh 2vh 2vh 0.5vh;
+}
+form input{
+	border:none;
+	border-bottom: solid 0.2vh var(--verdeclaro);
+}
+#selectmode{
+	padding:2vh 0;
+}
+#shortsize{
+	margin:2vh 0;
+}
+#arribadeuniform{
+	padding-bottom: 4vh;
+}
+.negritaform{
+	font-weight: bold;
 }
