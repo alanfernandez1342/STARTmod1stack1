@@ -227,7 +227,7 @@ p {
 
 .tablefin td{
 	padding: 1vh;
-	border: var(--verdeclaro) solid 0.4vh;
+	font-size: 3vh;
 }
 
 .tablefin th{
@@ -235,7 +235,13 @@ p {
 	text-align: center;
 	color:black;
 	padding-top: 1vh;
+	font-size: 3.5vh;
 }
 #emailtable{
-	float: right;
+	margin-right: 10vw;
+}
+.contactodetablas{
+	display: flex;
+	justify-content: space-between;
+
 }
