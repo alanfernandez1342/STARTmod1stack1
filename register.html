@@ -10,7 +10,7 @@
 	
 	<header>
 		<div id="divsub">
-			<h2 id="text">PROXIMAMENTE...</h2>	
+			<h2 id="text">REGISTER</h2>	
 		</div>
 		
 		
@@ -35,73 +35,107 @@
 
 	</nav>
 	<main>
-		<form>
+		<form action="show_data.html">
 			<div>
+				<fieldset>
+					<legend>Perfil</legend>	
+					<div>
+						<label>Player's First Name: <input type="text" name="firstname"></label>
+						<label>Last Name: <input type="text" name="lastname"></label>
+					</div>
+					<label>Street Adress: <input type="text" name="street"></label>
+					<div>
+						<label>City:<input type="text" name="city"></label>
+						<label>Zip Code: <input type="text" name="zip_code"></label>
+					</div>
+					<div>
+						<label>Birth Date: <input type="date" name="fecha"></label>
+						<label>Gender:<input type="radio" name="Gender" value="Female">Female</label> 
+						<label><input type="radio" name="Gender" value="Male">Male</label>
+					</div>
+					<div>
+						<label>Grade:<input type="radio" name="grade">Pre-School</label>
+						<label><input type="radio" name="grade" value="1st">1st</label>
+						<label><input type="radio" name="grade" value="2nd">2nd</label>
+						<label><input type="radio" name="grade" value="3rd">3rd</label>
+						<label><input type="radio" name="grade" value="4th">4th</label>
+						<label><input type="radio" name="grade" value="5th">5th</label>
+					</div>
+					<label>Parent/Guardian:<input type="text" name="parentG"></label>
+					<div>
+						<label>Contact Phone: <input type="tel" name="phone"></label>
+						<label>Contact Email: <input type="email" name="email"></label>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Near Schools</legend>
+					<h3>Which elementary schools do you live near?</h3>
+					<div class="selectmode">
 
-				<div>
-					<label>Player's First Name:</label> <input type="text" name="firstname">
-					<label>Last Name:</label> <input type="text" name="lastname">
-				</div>
-				<label>Street Adress:</label> <input type="text" name="street">
-				<div>
-					<label>City:</label> <input type="text" name="city">
-					<label>Zip Code:</label> <input type="text" name="zip code">
-				</div>
-				<div>
-					<label>Birth Date (mm/dd/yyyy):</label> <input type="date" name="fecha">
-					<label>Gender:</label><input type="radio" name="Gender">Female <input type="radio" name="Gender">Male
-				</div>
-				<div>
-					<label>Grade:</label> <input type="radio" name="grade">Pre-School<input type="radio" name="grade">1st<input type="radio" name="grade">2nd<input type="radio" name="grade">3rd<input type="radio" name="grade">4th<input type="radio" name="grade">5th
-				</div>
-				<label>Parent/Guardian:</label> <input type="text" name="parentG">
-				<div>
-					<label>Contact Phone:</label> <input type="tel" name="phone">
-					<label>Contact Email:</label> <input type="email" name="email">
-				</div>
-				<h3>Which elementary schools do you live near?</h3>
-				<div id="selectmode">
+						First Closest School:
+							<select>
+								<option value="firstschool">AJ Katzenmaier</option>
+								<option value="firstschool">Marjorie P Hart</option>
+								<option value="firstschool">Greenbay</option>
+								<option value="firstschool">Howard A Yeager</option>
+								<option value="firstschool">South Elementary</option>
+								<option value="firstschool">North Elementary</option>
+							</select>
+						<div class="selectmode">
+							Second Closest School:
+								<select>
+									<option value="secondschool">AJ Katzenmaier</option>
+									<option value="secondschool">Marjorie P Hart</option>
+									<option value="secondschool">Greenbay</option>
+									<option value="secondschool">Howard A Yeager</option>
+									<option value="secondschool">South Elementary</option>
+									<option value="secondschool">North Elementary</option>
+								</select>
+							
+						</div>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Positions</legend>
 
-					<label>First Closest School:
-						<select>
-							<option value="fcs">AJ Katzenmaier</option>
-							<option value="fcs">Marjorie P Hart</option>
-							<option value="fcs">Greenbay</option>
-							<option value="fcs">Howard A Yeager</option>
-							<option value="fcs">South Elementary</option>
-							<option value="fcs">North Elementary</option>
-						</select>
+					<h3>What Position(s) do you normally play? (check all that apply)</h3>
+					<label>
+					<input type="checkbox" name="Positions">Forward 
 					</label>
-					<label>Second Closest School:
-						<select>
-							<option value="scs">AJ Katzenmaier</option>
-							<option value="scs">Marjorie P Hart</option>
-							<option value="scs">Greenbay</option>
-							<option value="scs">Howard A Yeager</option>
-							<option value="scs">South Elementary</option>
-							<option value="scs">North Elementary</option>
-						</select>
+					<label>
+					<input type="checkbox" name="Positions">Midfield
+				</label>
+				<div id="arribadeuniform" >
+					<label>
+					<input type="checkbox" name="Positions">Defense 
+					</label>
+					<label>
+					<input type="checkbox" name="Positions">Goalkeeper
 					</label>
 				</div>
-				<h3>What Position(s) do you normally play? (check all that apply)</h3>
-				<div>
-					<input type="checkbox" name="Positions">Forward <input type="checkbox" name="Positions">Midfield
+
+				<h3>What Position(s) do you want play? (check all that apply)</h3>
+				<label>
+					<input type="checkbox" name="Positions">Forward 
+					</label>
+					<label>
+					<input type="checkbox" name="Positions">Midfield
+				</label>
+				<div id="arribadeuniform" >
+					<label>
+					<input type="checkbox" name="Positions">Defense 
+					</label>
+					<label>
+					<input type="checkbox" name="Positions">Goalkeeper
+					</label>
 				</div>
-				<div>
-					<input type="checkbox" name="Positions">Defense <input type="checkbox" name="Positions">Goalkeeper
-				</div>
-			</div>
-			<h3>What Position(s) do you want play? (check all that apply)</h3>
-			<div>
-				<input type="checkbox" name="Positions">Forward <input type="checkbox" name="Positions">Midfield
-			</div>
-			<div id="arribadeuniform" >
-				<input type="checkbox" name="Positions">Defense <input type="checkbox" name="Positions">Goalkeeper
-			</div>
+			</fieldset>
+			<fieldset>
+				<legend>Uniform</legend>
 			<input  type="checkbox" name="Uniform"><span class="negritaform">Already Have a Uniform</span></input>
 			<div>
-				<label>Jersey Size:
-					<select>
+				<label><span class="titulo-formularios">Jersey Size:</span>
+					<select name="jerseysize">
 						<option value="Jsize">Small</option>
 						<option value="Jsize">Youth Small</option>
 						<option value="Jsize">Medium</option>
@@ -116,7 +150,7 @@
 			</div>
 			<div id="shortsize">
 				<label>Short Size:
-					<select>
+					<select name="shortsize">
 						<option value="Ssize">Small</option>
 						<option value="Ssize">Youth Small</option>
 						<option value="Ssize">Medium</option>
@@ -127,7 +161,11 @@
 					</select>
 				</label>
 			</div>
-			<p>Permission to Play</p>
+			</fieldset>
+			<fieldset>
+				<legend>Permission</legend>
+			
+			<span class="negritaform">Permission to Play</span>
 			<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
 				Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
 				accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
@@ -139,10 +177,13 @@
 					cancellation policy and agree to its terms. 
 				</p>
 			</p>
+
 			<div>
-				<label>Parent/Guardian Signature:</label> <input type="text" name="Parents">
-				<label>Date:</label> <input type="date" name="datef">
-			</div>
+				<label>Parent/Guardian Signature: <input type="text" name="Parents"></label>
+				<label>Date: <input type="date" name="datef"></label>
+				<input type="submit" name="submit" value="Enviar" id="send"> 
+					</div>
+			</fieldset>
 		</div>
 	</form>
 </main>
