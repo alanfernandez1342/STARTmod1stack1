@@ -3,16 +3,21 @@
 	margin:0 auto;
 	padding: 0;
 }
+
+
+/*variable*/
+:root{
+	--ancho-logo: 30vh;
+	--verdeclaro: #b9f717;
+}
+
+
+/* estilo del header */
 header{
 	position: absolute;
 	width: 100vw;
 	z-index: 90;
 	top: 0;
-}
-/*variable*/
-:root{
-	--ancho-logo: 30vh;
-	--verdeclaro: #b9f717;
 }
 #logo{
 	position: relative;
@@ -38,8 +43,16 @@ header{
 	padding-left: 10vh;
 	padding-right: 5vh;
 	padding-bottom: 1vh;
-
 }
+	#titulo-logo{
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	display: inline-block;
+	height: 23.3vw;
+}
+
+
 /*Fondo de la pagina*/
 #backstyle3{
 	-webkit-transition:1.5s;
@@ -55,6 +68,8 @@ header{
 	-webkit-box-shadow: 13px 12px 4px 5px #000000; 
 	box-shadow: 0px 1px 30px -6px #000000;
 }
+
+
 /*LINKS*/
 nav{
 	-webkit-transition:1.5s;
@@ -91,6 +106,8 @@ nav	a{
 	font-size: 7vh;
 	transition: 0.8s;
 }
+
+
 /*Texto debajo del link*/
 #divsub{
 	-webkit-transition:1.5s;
@@ -126,6 +143,9 @@ main h3{
 	text-align: center;
 	font-weight: bold;
 }
+
+
+/* listas */
 li{
 	margin-left: 5vw;
 }
@@ -149,6 +169,15 @@ ul{
 #circulovacio{
 	list-style-type: circle;
 }
+#listas{
+	border: 0.8vh var(--verdeclaro) double;
+	margin-right: 2vw;
+	margin-bottom: 4vh;
+	padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+}
+
+
+/* tablas */
 #contenedor-tablas{
 	display: flex;
 	flex-wrap: wrap;
@@ -189,36 +218,14 @@ ul{
 	padding-left: 6.5vh; 
 
 }
-#listas{
-	border: 0.8vh var(--verdeclaro) double;
-	margin-right: 2vw;
-	margin-bottom: 4vh;
-	padding: 0.5vh 0.5vh 0.5vh 0.5vh;
-}
+
 #p-schedule{
 	font-size: 3.4vh;
 }
-#titulo-logo{
-	position: absolute;
-	top: 0;
-	width: 100vw;
-	display: inline-block;
-	height: 23.3vw;
-}
+
 #h3-schedule{
 	font-size: 4vh;
 }
-
-#text{
-	font-size: 4.5vh;
-}
-p {
-	font-size: 3vh;
-}
-.h3about{
-	font-size: 3vh;
-}
-
 .tablefin{
 	padding: 1vh;
 }
@@ -242,6 +249,24 @@ p {
 	display: flex;
 	justify-content: space-between;
 }
+
+
+/* MAIN */
+#text{
+	font-size: 4.5vh;
+}
+p {
+	font-size: 3vh;
+}
+
+
+/* MAIN > ABOUT */
+.h3about{
+	font-size: 3vh;
+}
+
+
+/* FORMULARIOS */
 form{
 	padding: 2vh;
 	margin:auto;
@@ -279,6 +304,12 @@ form h3{
 	text-decoration: none;
 	font-size: 3.5vh;
 }
+form p, input, label{
+	font-size:2.7vh;
+}
+
+
+/* Boton de volver en registro */
 #send{ 
 	float: right;
 	font-size: 3vh;
@@ -295,13 +326,16 @@ form h3{
 	background-color: var(--verdeclaro);
 	color:black;
 }
-form p, input, label{
-	font-size:2.7vh;
-}
+
+
+/* MAPAS */
 .maps{
 	height: 20vh;
 	width: 50vw;
 }
+
+
+/* boton de volver en show_data */
 #back{
 	position: absolute;
 	right: 1vw;
